@@ -42,5 +42,11 @@
     "ytdl-core": "^0.21.1",
     "zalgolize": "^1.2.4"
     "node": "^14.3.0"
+  
+    },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
   }
 }
