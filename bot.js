@@ -6,8 +6,11 @@ client.on('ready', () => {
 });
 
 //الاوامر//
+client.on("message", message => {
+if(message.content.startsWith("هاي"))
+message.channel.send("هايات")
+})
 
 
 
-
-client.login(process.env.BOT_TOKEN);
+client.login("NjY3ODUwOTE4OTU1NDUwNDA3.Xu8hKw.GbUNnO3TxTsLx-ybB11YvK_rJ9U");
